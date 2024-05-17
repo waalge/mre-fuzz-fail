@@ -36,6 +36,5 @@ pub fn fuzz_borrow() -> Fuzzer<Pair<Int,Scenario>> {
 
 test special(ss via fuzz_borrow()) {
   ss.2nd.d > 0 
-
 }
 
